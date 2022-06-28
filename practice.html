@@ -5,59 +5,158 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="main.css">
+    
+   
+    <link rel="stylesheet" href="./main.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="" class="navbar-brand">Gmail</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="" class="nav-link">All Inboxes</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Primary</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Social</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Promotions</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Starred</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Snoozed</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Important</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Sent</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Scheduled</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Drafts</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">All mail</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Spam</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Trash</a>
-                </li>
-            </ul>
+
+    <!-- Tmail Nav -->
+
+    <div class="container tmail">
+        <div class="row">
+          <div class="first col-12 col-sm-6 col-md-3 col-lg-4">
+            <nav class="navbar navbar-expand-sm-md navbar-dark bg-dark">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="" class="navbar-brand">Tmail</a>
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Primary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Drafts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Spam</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Trash</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+          </div>
+
+        <!-- Avatar Hey message -->
+
+          <div class="avatar-icon col-12 col-sm-6 col-md-3 col-lg-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              <span class="d-inline-block text-truncate" style="max-width: 150px;">
+                Welcome, Michael
+              </span>
+          </div>
+
+        <!-- Search Bar -->
+
+          <div class="search col-12 col-sm-12 col-md-6 col-lg-4 mt-1">
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+</div>
         </div>
-    </nav>
+
+        <!-- Notification -->
+
+    <div class="row">
+        <div class="messages col-12 col-md-4 col-lg-4 mt-4 mb-2">
+            <div class="card notification-card border-0">
+                    <div class="card-body">
+                        <span class="notification-date">3:33pm</span>
+                        <div class="notification-title">Indeed</div>
+                        <p class="notification-content">1 new full time job in Stockton, CA - SUPERMARKET, NORTH STOCKTON has an opportunity for you!</p>
+                    </div>
+                </div>
+                <div class="card notification-card border-0 mt-3">
+                    <div class="card-body">
+                        <span class="notification-date">June 24</span>
+                        <div class="notification-title">Apple</div>
+                        <p class="notification-content">Meet the new MacBook Pro 13“. Supercharged by M2. - Do even more, even faster with the new Macbook Pro 13". Availible now.</p>
+                    </div>
+                </div>
+                <div class="card notification-card border-0 mt-3">
+                    <div class="card-body">
+                        <span class="notification-date">June 24</span>
+                        <div class="notification-title">StockX</div>
+                        <p class="notification-content">50% Off Seller Fees for 24 Hours - Enjoy better pricing for buyers and more money back for sellers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-8 col-lg-8">
+        <div class="container">
+            <!-- Email header -->
+            <div class="row">
+                <div class="col email-address">To: support@gmail.com<br>From: ben@webapp.com<br>
+                </div>    
+            </div>
+
+            <!-- Email Subject -->                    
+            <div class="email-subject h4 mt-5 pt-1">StockX
+                <span>
+                    <!-- Horizontal 3-dot icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots float-right" viewBox="0 0 16 16">
+                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                    </svg>
+                    <!-- Reply icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply-fill float-right" viewBox="0 0 16 16">
+                        <path d="M5.921 11.9L1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>   
+                    </svg>
+                    <!-- Delete icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill float-right" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+                      </svg>
+                </span>
+            </div>
+            
+            <!-- Email content -->
+            <div class="row email-content mt-5">
+                <div class="col">
+                    For the next 24 hours, there's more money back for sellers and better pricing for buyers. Every item sold will automatically recieve 50% off their fees.* Restrictions apply, click <a href="">here</a> for full details.
+                </div>
+            </div>
+
+            <!-- Email reply -->
+            <form action="" method="">
+                <div class="form-group reply-box-container border rounded">
+                    <textarea class="form-control email-reply-box border-0" rows="6"></textarea>
+                    <button class="email-reply-btn float-right btn btn-outline-warning mr-2 mt-1">Reply</button>
+                    <svg id="attachment-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="float-left bi bi-paperclip mt-1" viewBox="0 0 16 16">
+                        <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                            </svg>
+                </div>
+            </form>
+
+        </div>
+    </div>
+<div>
+</div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
